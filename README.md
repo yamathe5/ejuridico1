@@ -12,6 +12,18 @@ python -m http.server 8000
 
 Luego visite http://localhost:8000.
 
+## Publicar en Netlify
+
+Importe este repositorio desde GitHub en Netlify y seleccione la rama `main`.
+El archivo `netlify.toml` configura la publicación desde la raíz, sin compilación.
+
+- Directorio base: dejar vacío.
+- Comando de compilación: dejar vacío.
+- Directorio de publicación: `.`
+- Variables de entorno: ninguna.
+
+El formulario usa enlaces de WhatsApp y no requiere Netlify Forms ni un servidor.
+
 ## Contenido
 
 - Diseño azul oscuro, dorado y blanco; paleta documentada en `PALETA.md`.

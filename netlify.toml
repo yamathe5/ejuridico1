@@ -1,0 +1,4 @@
+# Sitio estático: los archivos HTML, CSS y JavaScript están en la raíz.
+[build]
+  publish = "."
+  command = ""
