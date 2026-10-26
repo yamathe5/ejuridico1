@@ -1,0 +1,43 @@
+# Herramientas locales de agentes y editores
+.agents/
+.codex/
+.claude/
+.codegraph/
+.vscode/
+.idea/
+
+# Dependencias y archivos generados
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+.parcel-cache/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Credenciales y configuración privada
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+
+# Registros, archivos temporales y capturas de revisión
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+vista-previa*.png
+test-results/
+playwright-report/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
